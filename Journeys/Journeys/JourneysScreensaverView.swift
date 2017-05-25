@@ -9,14 +9,20 @@
 import Cocoa
 import ScreenSaver
 import Dispatch
+import WebKit
 
 class JourneysScreensaverView: ScreenSaverView {
 
-    var image: NSImage?
+    var webView: WKWebView!
     
     override init?(frame: NSRect, isPreview: Bool) {
         super.init(frame: frame, isPreview: isPreview)
-        loadImage()
+        webView = WKWebView(frame: frame)
+        
+        let url = URL(string: "https://www.youtube.com/embed/1Z_YV_gwAro?version=3&autoplay=1&controls=0&disablekb=1&loop=1&modestbranding=1&showinfo=0&rel=0&hd=1")
+        let request = URLRequest(url: url!)
+        webView.load(request)
+        addSubview(webView)
     }
     
     required init?(coder: NSCoder) {
@@ -32,10 +38,7 @@ class JourneysScreensaverView: ScreenSaverView {
     }
     
     override func draw(_ rect: NSRect) {
-        if let image = image {
-            let point = CGPoint(x: (frame.size.width - image.size.width) / 2, y: (frame.size.height - image.size.height) / 2)
-            image.draw(at: point, from: NSZeroRect, operation: .sourceOver, fraction: 1)
-        }
+        super.draw(rect)
     }
     
     override func animateOneFrame() {
@@ -48,16 +51,5 @@ class JourneysScreensaverView: ScreenSaverView {
     
     override func configureSheet() -> NSWindow? {
         return nil
-    }
-    
-    func loadImage() {
-        DispatchQueue.global().async {
-            let url = URL(string: "https://raw.githubusercontent.com/yomajkel/ImageStream/added-swift-image/assets/swift.png")
-            let data = NSData(contentsOf: url!) as Data?
-            if let data = data {
-                self.image = NSImage(data: data)
-                self.needsDisplay = true
-            }
-        }
     }
 }
