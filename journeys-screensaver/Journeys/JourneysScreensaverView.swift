@@ -12,17 +12,47 @@ import Dispatch
 import WebKit
 
 class JourneysScreensaverView: ScreenSaverView {
-
-    var webView: WKWebView!
+    
+    static var webViews: [WKWebView] = [WKWebView]()
+    var webView: WKWebView?
+    
+    static var sharingViews: Bool {
+        // TODO: Have this check prefs
+        return true
+    }
     
     override init?(frame: NSRect, isPreview: Bool) {
         super.init(frame: frame, isPreview: isPreview)
-        webView = WKWebView(frame: frame)
         
-        let url = URL(string: "http://journeys.forbidden.tv/")
+        // if there are no current web views or we don't want to share, create a new view
+        if JourneysScreensaverView.webViews.count == 0 || !JourneysScreensaverView.sharingViews {
+            createWebView(frame: frame)
+        }
+        
+        if JourneysScreensaverView.sharingViews {
+            webView = JourneysScreensaverView.webViews[0]
+        } else {
+            webView = JourneysScreensaverView.webViews.last
+        }
+        addSubview(webView!)
+        
+        // don't draw the webview bg
+        if NSAppKitVersionNumber > 1500 {
+            webView!.setValue(false, forKey: "drawsBackground")
+        }
+        else {
+            webView!.setValue(true, forKey: "drawsTransparentBackground")
+        }
+    }
+    
+    func createWebView(frame: NSRect) {
+        let webView = WKWebView(frame: frame)
+        let cacheBuster = Int(arc4random_uniform(999999999) + 1)
+        let urlString = String(format: "http://sweat.forbidden.tv/?%d", cacheBuster)
+        let url = URL(string: urlString)
         let request = URLRequest(url: url!)
         webView.load(request)
-        addSubview(webView)
+        JourneysScreensaverView.webViews.append(webView)
     }
     
     required init?(coder: NSCoder) {

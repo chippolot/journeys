@@ -67,7 +67,7 @@ var videosJSON = [
         "fullURL": "https://youtu.be/vQcsd2-GdfY?list=PLgAr8NYzhXlFAhTVRuV2F33T38QMR5cWb",
         "videoURL": "vQcsd2-GdfY",
         "tag": "walk",
-        "startAt": 0
+        "startAt": 10
     },
     {
         "name": "Walking around Country Club Plaza in Kansas Cit",
