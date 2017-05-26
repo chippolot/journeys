@@ -8,7 +8,7 @@ Inspired by John Coates's wonderful screen saver: [Aerial](https://github.com/Jo
 #### ~ by Ben Smith
 
 ## Installation
-1. [Click here to Download](https://github.com/chippolot/journeys/releases/download/v1.0/Journeys.zip)
+1. [Click here to Download](https://github.com/chippolot/journeys/files/1030947/Journeys.zip)
 2. Unzip the downloaded file.
 3. Open **Journeys.saver** and confirm installation.
 
