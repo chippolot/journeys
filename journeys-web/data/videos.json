@@ -1,4 +1,4 @@
-[
+var videosJSON = [
     {
         "name": "Nakameguro to Shibuya on foot - Long Take",
         "fullURL": "https://youtu.be/1Z_YV_gwAro?list=PLgAr8NYzhXlFAhTVRuV2F33T38QMR5cWb",
@@ -132,4 +132,4 @@
         "tag": "walk",
         "startAt": 0
     }
-]
+];
