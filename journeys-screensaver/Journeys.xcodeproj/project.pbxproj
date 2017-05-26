@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9019DB011ED7DFE2003E2E1F /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 9019DB001ED7DFE2003E2E1F /* thumbnail.png */; };
 		B52D30331ED72A0D00724C7F /* JourneysScreensaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52D30321ED72A0D00724C7F /* JourneysScreensaverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9019DB001ED7DFE2003E2E1F /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		B52D30231ED728E900724C7F /* Journeys.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Journeys.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52D302A1ED728E900724C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52D30321ED72A0D00724C7F /* JourneysScreensaverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneysScreensaverView.swift; sourceTree = "<group>"; };
@@ -27,6 +29,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9019DAFF1ED7DFD8003E2E1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9019DB001ED7DFE2003E2E1F /* thumbnail.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B52D30191ED728E900724C7F = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +56,7 @@
 		B52D30251ED728E900724C7F /* Journeys */ = {
 			isa = PBXGroup;
 			children = (
+				9019DAFF1ED7DFD8003E2E1F /* Supporting Files */,
 				B52D302A1ED728E900724C7F /* Info.plist */,
 				B52D30321ED72A0D00724C7F /* JourneysScreensaverView.swift */,
 			);
@@ -94,7 +105,7 @@
 				TargetAttributes = {
 					B52D30221ED728E900724C7F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = B394CK7K5N;
+						DevelopmentTeam = 5Q5ZBELF35;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9019DB011ED7DFE2003E2E1F /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,13 +243,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B394CK7K5N;
+				DEVELOPMENT_TEAM = 5Q5ZBELF35;
 				INFOPLIST_FILE = Journeys/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bsmith.Journeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
@@ -249,13 +263,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B394CK7K5N;
+				DEVELOPMENT_TEAM = 5Q5ZBELF35;
 				INFOPLIST_FILE = Journeys/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bsmith.Journeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};

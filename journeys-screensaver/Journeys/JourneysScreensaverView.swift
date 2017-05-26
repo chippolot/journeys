@@ -19,7 +19,7 @@ class JourneysScreensaverView: ScreenSaverView {
         super.init(frame: frame, isPreview: isPreview)
         webView = WKWebView(frame: frame)
         
-        let url = URL(string: "https://www.youtube.com/embed/1Z_YV_gwAro?version=3&autoplay=1&controls=0&disablekb=1&loop=1&modestbranding=1&showinfo=0&rel=0&hd=1")
+        let url = URL(string: "http://journeys.forbidden.tv/")
         let request = URLRequest(url: url!)
         webView.load(request)
         addSubview(webView)
