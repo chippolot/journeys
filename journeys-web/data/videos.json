@@ -131,5 +131,103 @@ var videosJSON = [
         "videoURL": "LlKpHr7FHuY",
         "tag": "walk",
         "startAt": 0
+    },
+    {
+        "name": "London Kings Cross to York-on board an INTERCITY 225",
+        "fullURL": "https://youtu.be/HWm5huUMxuQ",
+        "videoURL": "HWm5huUMxuQ",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "BergensBanen minutt for minutt HD (Full video)",
+        "fullURL": "https://youtu.be/z7VYVjR_nwE?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "z7VYVjR_nwE",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "Train Driver's view: Oslo to Ål",
+        "fullURL": "https://youtu.be/7o7ecadHJmU?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "7o7ecadHJmU",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "CTA Ride the Rails: Brown Line in Real Time",
+        "fullURL": "https://youtu.be/fJzhNPKtR0Q?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "fJzhNPKtR0Q",
+        "tag": "train",
+        "startAt": 50
+    },
+    {
+        "name": "Bergensbanen full HD",
+        "fullURL": "https://youtu.be/aR15x_ujuPA?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "aR15x_ujuPA",
+        "tag": "train",
+        "startAt": 12
+    },
+    {
+        "name": "GTA 5: Train Ride 4 Hours",
+        "fullURL": "https://youtu.be/qNnW4D0XiLA?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "qNnW4D0XiLA",
+        "tag": "train",
+        "startAt": 3
+    },
+    {
+        "name": "⁴ᴷ Motorman's Point of View - 1930s R1 from Coney Island to 53rd St-7th Ave",
+        "fullURL": "https://youtu.be/3kmAL7YCPmI?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "3kmAL7YCPmI",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "⁴ᴷ NYC Subway Train Operator's Point of View - The Queens-bound 7 Line",
+        "fullURL": "https://youtu.be/BZ9wJWp95sU?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "BZ9wJWp95sU",
+        "tag": "train",
+        "startAt": 10
+    },
+    {
+        "name": "Cab Ride Norway : Trondheim - Bodø (Spring) Nordland Line",
+        "fullURL": "https://youtu.be/tnsQ8DjD6YE?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "tnsQ8DjD6YE",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "Dewanganj to Dhaka, Bangladesh - 6 Hour 4K Train Ride",
+        "fullURL": "https://youtu.be/jMTTNpZWiKw?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "jMTTNpZWiKw",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "Brienz Rothorn Bahn (Switzerland) - Drivers Eye View",
+        "fullURL": "https://youtu.be/OeJ5xXrbkfU?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "OeJ5xXrbkfU",
+        "tag": "train",
+        "startAt": 60
+    },
+    {
+        "name": "Zermatt to Gornergrat Railway - Driver's View Part 1",
+        "fullURL": "https://youtu.be/48Msdr2KEfI?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "48Msdr2KEfI",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "London Kings Cross to York-on board an INTERCITY 225",
+        "fullURL": "https://youtu.be/HWm5huUMxuQ?list=PLgAr8NYzhXlH4vhc1y-Bk6lDydEXmUUWd",
+        "videoURL": "HWm5huUMxuQ",
+        "tag": "train",
+        "startAt": 0
+    },
+    {
+        "name": "Sigur Rós - Route One [Part 1 - 1080p]",
+        "fullURL": "https://youtu.be/G54tllj-SKI?list=PLgAr8NYzhXlGbYDSFomxzsuPWW5hXzb9l&t=185",
+        "videoURL": "G54tllj-SKI",
+        "tag": "car",
+        "startAt": 185
     }
 ];
