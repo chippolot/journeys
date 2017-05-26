@@ -84,13 +84,6 @@ var videosJSON = [
         "startAt": 0
     },
     {
-        "name": "1 hour Virtual Nature Walk in the Austrailan Bush",
-        "fullURL": "https://youtu.be/Hz4Y0QR797Y",
-        "videoURL": "Hz4Y0QR797Y",
-        "tag": "walk",
-        "startAt": 0
-    },
-    {
         "name": "GTA V PS4 | Crossing Mount Chiliad Full Length",
         "fullURL": "https://youtu.be/8Mzr__bO55w",
         "videoURL": "8Mzr__bO55w",
