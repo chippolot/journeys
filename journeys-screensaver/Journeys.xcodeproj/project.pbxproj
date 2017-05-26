@@ -105,7 +105,7 @@
 				TargetAttributes = {
 					B52D30221ED728E900724C7F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5Q5ZBELF35;
+						DevelopmentTeam = B394CK7K5N;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -245,7 +245,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5Q5ZBELF35;
+				DEVELOPMENT_TEAM = B394CK7K5N;
 				INFOPLIST_FILE = Journeys/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -265,7 +265,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5Q5ZBELF35;
+				DEVELOPMENT_TEAM = B394CK7K5N;
 				INFOPLIST_FILE = Journeys/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";

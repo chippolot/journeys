@@ -18,7 +18,7 @@ class JourneysScreensaverView: ScreenSaverView {
     
     static var sharingViews: Bool {
         // TODO: Have this check prefs
-        return true
+        return false
     }
     
     override init?(frame: NSRect, isPreview: Bool) {
@@ -26,7 +26,7 @@ class JourneysScreensaverView: ScreenSaverView {
         
         // if there are no current web views or we don't want to share, create a new view
         if JourneysScreensaverView.webViews.count == 0 || !JourneysScreensaverView.sharingViews {
-            createWebView(frame: frame)
+            createWebView(frame: self.bounds)
         }
         
         if JourneysScreensaverView.sharingViews {
@@ -43,6 +43,7 @@ class JourneysScreensaverView: ScreenSaverView {
         else {
             webView!.setValue(true, forKey: "drawsTransparentBackground")
         }
+        
     }
     
     func createWebView(frame: NSRect) {
